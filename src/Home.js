@@ -1,4 +1,4 @@
-import {useState} from 'react';
+import { useState } from 'react';
 
 const Home = () => {
     const [blogs,setBlogs] = useState([
@@ -16,6 +16,8 @@ const Home = () => {
           <p>Written by {blog.author}</p>
         </div>
       ))}      
+
+  
     </div>
   );
 };
